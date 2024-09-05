@@ -222,7 +222,7 @@ open class SPConfettiView: UIView {
         switch self.animation {
         case .fullWidthToDown:
             cell.emissionLongitude = degressToRadians(180)
-            cell.emissionRange = degressToRadians(90)
+            cell.emissionRange = degressToRadians(30)
         case .fullWidthToUp:
             cell.emissionLongitude = degressToRadians(0)
             cell.emissionRange = degressToRadians(90)
